@@ -1,4 +1,4 @@
-//#region Вариант из урока 
+//#region 
 /* const slides = document.querySelectorAll('.slide');
 slides.forEach((slide) => {
     slide.addEventListener('click', () => {
@@ -14,7 +14,7 @@ function clearActiveClasses() {
 } */
 //#endregion
 
-//#region А можно использовать toggle ? Есть определенные нюансы, но все же ? Можем и им ) 
+//#region А можно использовать toggle. Есть определенные нюансы, но все же. Можем и им ) 
 const slides = document.querySelectorAll('.slide');
 slides.forEach((slide) => {
     slide.addEventListener('click', () => {
