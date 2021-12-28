@@ -6,3 +6,5 @@
 Проект №3 - https://alex-vikhrov.github.io/Five_Project/Проект_№3_Slider/index.html
 
 Проект №4 - https://alex-vikhrov.github.io/Five_Project/Проект_№4_Board/index.html
+
+Проект №5 - https://alex-vikhrov.github.io/Five_Project/Проект_№5_AimGame/index.html
