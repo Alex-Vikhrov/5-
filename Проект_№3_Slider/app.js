@@ -29,48 +29,15 @@ document.addEventListener('mouseout', function mouseout(ev) {
     downButton.style.display = 'none';
 });
 
-/* container.addEventListener('keyup', keyUpHandler);
-container.addEventListener('keydown', keyDownHandler);
-
-function keyUpHandler(event) {
-    if (event.key === "ArrowUp" || event.key === "Up") {
-        activeSlideIndex++;
-        if (activeSlideIndex === slideCount) {
-            activeSlideIndex = 0;
-        }
-    }
-    if (event.key === "ArrowDown" || event.key === "Down") {
-        activeSlideIndex--;
-        if (activeSlideIndex < 0) {
-            activeSlideIndex = slideCount - 1;
-        }
-    }
-
-    const height = container.clientHeight;
-
-    mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
-    slidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
-}
+document.addEventListener('keydown', keyDownHandler);
 
 function keyDownHandler(event) {
     if (event.key === "ArrowUp" || event.key === "Up") {
-        activeSlideIndex++;
-        if (activeSlideIndex === slideCount) {
-            activeSlideIndex = 0;
-        }
+        changeSlide('up');
+    } else if (event.key === "ArrowDown" || event.key === "Down") {
+        changeSlide('down');
     }
-    if (event.key === "ArrowDown" || event.key === "Down") {
-        activeSlideIndex--;
-        if (activeSlideIndex < 0) {
-            activeSlideIndex = slideCount - 1;
-        }
-    }
-
-    const height = container.clientHeight;
-
-    mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`;
-    slidebar.style.transform = `translateY(${activeSlideIndex * height}px)`;
-} */
+}
 
 
 function changeSlide(direction) {
